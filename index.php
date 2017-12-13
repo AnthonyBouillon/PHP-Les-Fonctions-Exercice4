@@ -6,7 +6,19 @@
   </head>
   <body>
 <?php
+  function number(){
+    $number1 = 41;
+    $number2 = 40;
+    if($number1 < $number2){
+      echo 'Le premier nombre est plus petit';
+    } elseif($number1 > $number2){
+      echo 'Le premier nombre est plus grand';
+    } else{
+      echo 'Les deux nombres sont identiques';
+    }
 
+  };
+  echo number();
  ?>
   </body>
 </html>
