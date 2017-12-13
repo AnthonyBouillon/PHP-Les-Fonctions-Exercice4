@@ -16,7 +16,6 @@
     } else{
       echo 'Les deux nombres sont identiques';
     }
-
   };
   echo number();
  ?>
